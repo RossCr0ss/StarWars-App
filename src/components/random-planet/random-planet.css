@@ -1,0 +1,33 @@
+.random-planet {
+    display: flex;
+    margin: 20px 0;
+}
+
+.random-planet-image {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.random-planet-list {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .random-planet-list-item span {
+    float: left;
+    width: 140px;
+  }
+
+
+@media screen and (max-width: 768px) {
+    .random-planet {
+        flex-direction: column;
+    }
+
+    .random-planet-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+}
